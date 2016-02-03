@@ -1,0 +1,8 @@
+cards = 18
+border = rectangle
+font = arial, 28, B, #0000FF
+text = "1", "SEER", 0, 3, 6, 3, center
+font = arial, 28, B, #FF0000
+text = "2-4", "WEREWOLF", 0, 3, 6, 3, center
+font = arial, 28, B, #000000
+TEXT="5-18", "VILLAGER", 0, 3, 6, 3, center
