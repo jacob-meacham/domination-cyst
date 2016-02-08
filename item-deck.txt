@@ -1,0 +1,26 @@
+linkmulti=itemNum
+link=shop-small.xls
+
+; Item card variables
+[itemRange]=1-{(itemName)+1}
+[itemImagePath]="images\items\[itemImage].png"
+
+; All cards
+border = rounded, #000000, 0.05
+
+; Debug card
+[debugCard] = {(itemName)+1}
+font = "montserrat light", 12, TF, #000000
+text = [debugCard], [itemRange], 0, 4, 6, 3,center,top
+
+; Item cards
+; Item card background elements
+rectangle = [itemRange], 0, 0, 100%, 10%, #FF5721
+
+; Item title/description
+font = "montserrat light", 12, TF, #000000
+text = [itemRange], [itemName], 0%, 2%, 100%, 20%, center, top
+text = [itemRange], [itemDescription], 0%,75%,100%,20%, center, wordwrap
+
+; Item image
+image = [itemRange], [itemImagePath], 8%, 5%, 60%, 60%, 0, P
