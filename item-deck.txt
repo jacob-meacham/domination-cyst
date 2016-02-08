@@ -1,8 +1,8 @@
 linkmulti=itemNum
-link=shop-small.xls
+link=shop.xls
 
 ; Item card variables
-[itemRange]=1-{(itemName)+1}
+[itemRange]=1-{(itemName)}
 [itemImagePath]="images\items\[itemImage].png"
 
 ; All cards
@@ -23,4 +23,4 @@ text = [itemRange], [itemName], 0%, 2%, 100%, 20%, center, top
 text = [itemRange], [itemDescription], 0%,75%,100%,20%, center, wordwrap
 
 ; Item image
-image = [itemRange], [itemImagePath], 8%, 5%, 60%, 60%, 0, P
+image = [itemRange], [itemImagePath], 20%, 10%, 60%, 60%, 0, P
