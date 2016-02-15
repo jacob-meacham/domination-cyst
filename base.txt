@@ -9,8 +9,8 @@ rectangle = [backCard], 0, 0, 100%, 100%, #7777777
 image = [backCard], "images\crown.png", 31%, 15%, 33%, 33%, 0, PT
 line = [backCard], 0%, 65%, 100%, 65%, #000000, 0.05
 line = [backCard], 0%, 68%, 100%, 68%, #000000, 0.05
-font = "montserrat light", 18, TF, #000000
-text = [backCard], "KINGS\13\WAGER", 0%, 0%, 100%, 100%,center,center
 
 ; Debug card
 [debugCard] = {[deckSize]+2}
+font = "montserrat light", 12, TF, #000000
+text = [debugCard], "DEBUG", 0, 0, 100%, 10%,center,top

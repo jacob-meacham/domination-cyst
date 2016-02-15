@@ -9,13 +9,9 @@ include = base.txt
 ; Item card variables
 [itemImagePath]="images\items\[itemImage].png"
 
-; Debug card
-font = "montserrat light", 12, TF, #000000
-text = [debugCard], [deckRange], 0, 4, 6, 3,center,top
-
 ; Item cards
 ; Item card background elements
-rectangle = [deckRange], 0, 0, 100%, 10%, #FF5721
+rectangle = [deckRange], 0, 0, 100%, 15%, #FF5721
 
 ; Item title/description
 font = "montserrat light", 10, TF, #000000
@@ -27,4 +23,11 @@ text = [deckRange], [itemDescription], 10%,75%,80%,20%, center, wordwrap
 ; Item image
 image = [deckRange], [itemImagePath], 20%, 10%, 60%, 60%, 0, P
 
+; Back
+font = "montserrat light", 25, TF, #000000
+text = [backCard], "ITEMS", 0%, 40%, 100%, 20%,center,center
+
+; Debug
+font = "montserrat light", 12, TF, #000000
+text = [debugCard], [deckRange], 0, 4, 6, 3,center,top
 ;image = [deckRange], "images/proof.png", 0%, 0%, 100%, 100%, 0, P, 50
