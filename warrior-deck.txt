@@ -53,4 +53,4 @@ font = "montserrat light", 25, TF, #FFFFFF
 text = [deckRange], [warriorPower], 23%, 79.5%, 80%, 20%,left,top
 rtftext = [deckRange], [warriorPowerSymbol], 11%, 81%, 80%, 20%, #FFFF00, 0, T
 
-;image = [deckRange], "proof.png", 0%, 0%, 100%, 100%, 0, P, 50
+;image = [deckRange], "images/proof.png", 0%, 0%, 100%, 100%, 0, P, 50
