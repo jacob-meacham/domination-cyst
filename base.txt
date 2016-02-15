@@ -1,0 +1,6 @@
+; All cards
+cardsize = 6.35, 8.8
+
+; Back of the deck
+;font = "montserrat light", 18, TF, #000000
+;text = 1, "KINGS\13\WAGER", 0%, 0%, 100%, 100%,center,center
