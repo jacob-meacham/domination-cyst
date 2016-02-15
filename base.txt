@@ -6,7 +6,7 @@ cardsize = 6.35, 8.8
 ; Back of the deck
 [backCard] = {[deckSize]+1}
 rectangle = [backCard], 0, 0, 100%, 100%, #7777777
-image = [backCard], "images\crown.png", 31%, 15%, 33%, 33%, 0, PT
+image = [backCard], "images\crown.png", 31%, 15%, 33%, 33%, 0, PN
 line = [backCard], 0%, 65%, 100%, 65%, #000000, 0.05
 line = [backCard], 0%, 68%, 100%, 68%, #000000, 0.05
 
@@ -14,3 +14,5 @@ line = [backCard], 0%, 68%, 100%, 68%, #000000, 0.05
 [debugCard] = {[deckSize]+2}
 font = "montserrat light", 12, TF, #000000
 text = [debugCard], "DEBUG", 0, 0, 100%, 10%,center,top
+
+;image = [backCard], "images/proof.png", 0%, 0%, 100%, 100%, 0, P, 50

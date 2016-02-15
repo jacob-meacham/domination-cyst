@@ -6,6 +6,8 @@ link=shop.xls
 
 include = base.txt
 
+deck = [deckRange], "Items", #000000, 100%, N, [backCard]
+
 ; Item card variables
 [itemImagePath]="images\items\[itemImage].png"
 
