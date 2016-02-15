@@ -1,6 +1,20 @@
+; Script expects deckSize and deckRange labels to be set
+
+[deckSize]=2
+
 ; All cards
 cardsize = 6.35, 8.8
 
 ; Back of the deck
-;font = "montserrat light", 18, TF, #000000
-;text = 1, "KINGS\13\WAGER", 0%, 0%, 100%, 100%,center,center
+[backCard] = {[deckSize]+1}
+rectangle = [backCard], 0, 0, 100%, 100%, #7777777
+image = [backCard], "images\crown.png", 31%, 15%, 33%, 33%, 0, PT
+line = [backCard], 0%, 65%, 100%, 65%, #000000, 0.05
+line = [backCard], 0%, 68%, 100%, 68%, #000000, 0.05
+font = "montserrat light", 18, TF, #000000
+text = [backCard], "KINGS\13\WAGER", 0%, 0%, 100%, 100%,center,center
+
+; Debug card
+[debugCard] = {[deckSize]+2}
+
+image = [deckRange], "proof.png", 0%, 0%, 100%, 100%, 0, P, 50
