@@ -1,0 +1,35 @@
+;linkmulti=decreeNum ;Only need multi when not printing from Game Crafter
+link=decrees.xls
+
+[deckSize] = {(decreeName)}
+[deckRange] = 1-[deckSize]
+
+include = base.txt
+
+; Decree card variables
+[decreeImagePath]="images\decrees\[decreeImage].png"
+
+; Decree cards
+; Decree card background elements
+rectangle = [deckRange], 0, 0, 100%, 15%, #6699ff
+rectangle = [deckRange], 0, 85%, 100%, 15%, #6699ff
+
+; Decree title/description
+font = "montserrat light", 20, TF, #000000
+text = [deckRange], "Decree!", 10%, 6%, 80%, 20%, center, top
+
+font = "montserrat light", 10, TF, #000000
+text = [deckRange], [decreeName], 10%, 86%, 80%, 20%, center, top
+
+font = "montserrat light", 9, TF, #000000
+text = [deckRange], [decreeDescription], 10%,60%,80%,20%, center, wordwrap
+
+; Decree image
+image = [deckRange], [decreeImagePath], 20%, 6%, 60%, 60%, 0, PT
+
+; Back
+font = "montserrat light", 25, TF, #000000
+text = [backCard], "DECREES", 0%, 40%, 100%, 20%,center,center
+
+; Debug
+;image = [deckRange], "images/proof.png", 0%, 0%, 100%, 100%, 0, P, 50
