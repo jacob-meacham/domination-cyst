@@ -6,7 +6,7 @@ link=shop.xls
 
 include = base.txt
 
-deck = [deckRange], "Items", #000000, 100%, N, [backCard]
+deck = [deckRange], "Shop", #000000, 100%, N, [backCard]
 
 ; Item card variables
 [itemImagePath]="images\items\[itemImage].png"
@@ -23,7 +23,7 @@ font = "montserrat light", 9, TF, #000000
 text = [deckRange], [itemDescription], 10%,75%,80%,20%, center, wordwrap
 
 ; Item image
-image = [deckRange], [itemImagePath], 20%, 10%, 60%, 60%, 0, P
+image = [deckRange], [itemImagePath], 20%, 10%, 60%, 60%, 0, PN
 
 ; Back
 font = "montserrat light", 25, TF, #000000

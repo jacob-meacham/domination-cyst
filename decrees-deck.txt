@@ -6,26 +6,34 @@ link=decrees.xls
 
 include = base.txt
 
+deck = [deckRange], "Decrees", #000000, 100%, N, [backCard]
+
 ; Decree card variables
 [decreeImagePath]="images\decrees\[decreeImage].png"
+[decreeCostSymbol]="images\decrees\costIcon.png"
 
 ; Decree cards
 ; Decree card background elements
-rectangle = [deckRange], 0, 0, 100%, 15%, #6699ff
-rectangle = [deckRange], 0, 85%, 100%, 15%, #6699ff
+rectangle = [deckRange], 0, 0, 100%, 17%, #6699ff
+rectangle = [deckRange], 0, 83%, 100%, 17%, #6699ff
 
 ; Decree title/description
 font = "montserrat light", 20, TF, #000000
 text = [deckRange], "Decree!", 10%, 6%, 80%, 20%, center, top
 
 font = "montserrat light", 10, TF, #000000
-text = [deckRange], [decreeName], 10%, 86%, 80%, 20%, center, top
+text = [deckRange], [decreeName], 10%, 85%, 80%, 20%, left, top
 
 font = "montserrat light", 9, TF, #000000
-text = [deckRange], [decreeDescription], 10%,60%,80%,20%, center, wordwrap
+text = [deckRange], [decreeDescription], 10%,63%,80%,20%, center, wordwrap
+
+; Decree cost
+font = "montserrat light", 11, TF, #000000
+text = [deckRange], [decreeCost], 77%, 84.5%, 20%, 20%, left, top
+image = [deckRange], [decreeCostSymbol], 70%, 84%, 6.5%, 6.5%, 0, PN
 
 ; Decree image
-image = [deckRange], [decreeImagePath], 20%, 6%, 60%, 60%, 0, PT
+image = [deckRange], [decreeImagePath], 20%, 9%, 60%, 60%, 0, PT
 
 ; Back
 font = "montserrat light", 25, TF, #000000
