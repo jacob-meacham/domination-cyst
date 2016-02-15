@@ -1,7 +1,5 @@
 ; Script expects deckSize and deckRange labels to be set
 
-[deckSize]=2
-
 ; All cards
 cardsize = 6.35, 8.8
 
@@ -16,5 +14,3 @@ text = [backCard], "KINGS\13\WAGER", 0%, 0%, 100%, 100%,center,center
 
 ; Debug card
 [debugCard] = {[deckSize]+2}
-
-image = [deckRange], "proof.png", 0%, 0%, 100%, 100%, 0, P, 50
