@@ -3,6 +3,7 @@ link=decrees.xls
 
 [deckSize] = {(decreeName)}
 [deckRange] = 1-[deckSize]
+[backCardColor] = #7777777
 
 include = base.txt
 
@@ -10,7 +11,6 @@ deck = [deckRange], "Decrees", #000000, 100%, N, [backCard]
 
 ; Decree card variables
 [decreeImagePath]="images\decrees\[decreeImage].png"
-[decreeCostSymbol]="images\decrees\costIcon.png"
 
 ; Decree cards
 ; Decree card background elements
@@ -27,11 +27,6 @@ text = [deckRange], [decreeName], 10%, 85%, 80%, 20%, left, top
 font = "montserrat light", 9, TF, #000000
 text = [deckRange], [decreeDescription], 10%,63%,80%,20%, center, wordwrap
 
-; Decree cost
-font = "montserrat light", 11, TF, #000000
-text = [deckRange], [decreeCost], 77%, 84.5%, 20%, 20%, left, top
-image = [deckRange], [decreeCostSymbol], 70%, 84%, 6.5%, 6.5%, 0, PN
-
 ; Decree image
 image = [deckRange], [decreeImagePath], 20%, 9%, 60%, 60%, 0, PT
 
@@ -41,3 +36,4 @@ text = [backCard], "DECREES", 0%, 40%, 100%, 20%,center,center
 
 ; Debug
 ;image = [deckRange], "images/proof.png", 0%, 0%, 100%, 100%, 0, P, 50
+

@@ -1,7 +1,8 @@
-link=warriors-small.xls
+link=warriors.xls
 
 [deckSize] = {(warriorName)}
 [deckRange]=1-[deckSize]
+[backCardColor] = #7777777
 
 include = base.txt
 

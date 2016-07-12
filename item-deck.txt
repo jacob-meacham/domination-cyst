@@ -1,8 +1,9 @@
 ;linkmulti=itemNum ;Only need multi when not printing from Game Crafter
-link=shop.xls
+link=items.xls
 
 [deckSize] = {(itemName)}
 [deckRange] = 1-[deckSize]
+[backCardColor] = #7777777
 
 include = base.txt
 

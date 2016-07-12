@@ -1,11 +1,11 @@
-; Script expects deckSize and deckRange labels to be set
+; Script expects deckSize and backCardColor labels to be set
 
 ; All cards
 cardsize = 6.35, 8.8
 
 ; Back of the deck
 [backCard] = {[deckSize]+1}
-rectangle = [backCard], 0, 0, 100%, 100%, #7777777
+rectangle = [backCard], 0, 0, 100%, 100%, [backCardColor]
 image = [backCard], "images\crown.png", 31%, 15%, 33%, 33%, 0, PN
 line = [backCard], 0%, 65%, 100%, 65%, #000000, 0.05
 line = [backCard], 0%, 68%, 100%, 68%, #000000, 0.05
