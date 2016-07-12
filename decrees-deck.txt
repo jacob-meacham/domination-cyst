@@ -3,7 +3,7 @@ link=decrees.xls
 
 [deckSize] = {(decreeName)}
 [deckRange] = 1-[deckSize]
-[backCardColor] = #7777777
+[backCardColor] = #054A91
 
 include = base.txt
 

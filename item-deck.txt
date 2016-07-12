@@ -3,7 +3,7 @@ link=items.xls
 
 [deckSize] = {(itemName)}
 [deckRange] = 1-[deckSize]
-[backCardColor] = #7777777
+[backCardColor] = #F17300
 
 include = base.txt
 

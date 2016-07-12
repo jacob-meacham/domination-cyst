@@ -3,7 +3,7 @@ link=challenges.xls
 
 [deckSize] = {(challengeName)}
 [deckRange] = 1-[deckSize]
-[backCardColor] = #7777777
+[backCardColor] = #3E7CB1
 
 include = base.txt
 
