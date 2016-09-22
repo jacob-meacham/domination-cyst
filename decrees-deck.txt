@@ -3,7 +3,7 @@ link=decrees.xls
 
 [deckSize] = {(decreeName)}
 [deckRange] = 1-[deckSize]
-[backCardColor] = #054A91
+[backCardColor] = #50514F
 
 include = base.txt
 
@@ -14,15 +14,15 @@ deck = [deckRange], "Decrees", #000000, 100%, N, [backCard]
 
 ; Decree cards
 ; Decree card background elements
-rectangle = [deckRange], 0, 0, 100%, 17%, #6699ff
-rectangle = [deckRange], 0, 83%, 100%, 17%, #6699ff
+rectangle = [deckRange], 0, 0, 100%, 17%, #50514F
+rectangle = [deckRange], 0, 83%, 100%, 17%, #50514F
 
 ; Decree title/description
 font = "montserrat light", 20, TF, #000000
 text = [deckRange], "Decree!", 10%, 6%, 80%, 20%, center, top
 
 font = "montserrat light", 10, TF, #000000
-text = [deckRange], [decreeName], 10%, 85%, 80%, 20%, left, top
+text = [deckRange], [decreeName], 10%, 85%, 80%, 20%, center, top
 
 font = "montserrat light", 9, TF, #000000
 text = [deckRange], [decreeDescription], 10%,63%,80%,20%, center, wordwrap

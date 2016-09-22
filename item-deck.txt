@@ -7,14 +7,14 @@ link=items.xls
 
 include = base.txt
 
-deck = [deckRange], "Shop", #000000, 100%, N, [backCard]
+deck = [deckRange], "Item", #000000, 100%, N, [backCard]
 
 ; Item card variables
 [itemImagePath]="images\items\[itemImage].png"
 
 ; Item cards
 ; Item card background elements
-rectangle = [deckRange], 0, 0, 100%, 15%, #FF5721
+rectangle = [deckRange], 0, 0, 100%, 15%, #F17300
 
 ; Item title/description
 font = "montserrat light", 10, TF, #000000
