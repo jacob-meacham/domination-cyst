@@ -19,6 +19,9 @@ deck = [deckRange], "Champions", #000000, 100%, N, [backCard]
 [color_Rogue]=#8B8989
 [color_Wizard]=#7A378B
 
+if = [finalArt]<>""
+image = [deckRange], [finalArt], 0, 0, 6.35, 8.8, 0
+else
 ; Warrior cards
 ; Warrior card background elements
 rectangle = [deckRange], 0, 0, 100%, 12%, [color_[warriorClass]]
@@ -47,6 +50,7 @@ text = [deckRange], [warriorFlavor], 10%, 63%, 62%, 20%, center, wordwrap
 font = "montserrat light", 25, TF, #FFFFFF
 text = [deckRange], [warriorPower], 23%, 79.5%, 80%, 20%, left, top
 image = [deckRange], [warriorPowerSymbol], 10%, 80%, 13%, 13%, 0, PN
+endif
 
 ; Back
 font = "montserrat light", 23, TF, #000000
